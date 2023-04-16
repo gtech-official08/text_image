@@ -1,0 +1,26 @@
+/*  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  */
+.main_section{
+    width: 100%;
+    height: 100vh;
+    background: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_text{
+    font-size: 17rem;
+    font-weight: 900;
+    text-align: center;
+    background: url("https://cdn.pixabay.com/photo/2016/10/18/21/28/seljalandsfoss-1751463__340.jpg");
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
